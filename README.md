@@ -22,9 +22,10 @@ main.py [-P -M] [your/proyect/location/.]
 If no location has been passed, the script will assume the location from which is running. (.)
 
 Optional arguments:
-`-P` lists programming languages (C/C++, Java, PHP, Python...)
 
-`-M` lists markup languages (XML, CSS, HTML...)
+`-P` lists files only written with programming languages (C/C++, Java, PHP, Python...)
+
+`-M` lists files only written with markup languages (XML, CSS, HTML...)
 
 ## Recognized languages
 
@@ -55,9 +56,11 @@ Optional arguments:
 - Tested in Python 3.13.0, but it should work in any Python 3.X version
 
 ## Contributing
+Found a bug? Please [open an issue](https://github.com/Gathub22/code-analyzer/issues/new/choose) to review it inmmediately.
+
 If you want to improve this code:
 - You should fork the main branch and work on your changes there.
-- Once you're done, create a PR.
+- Once you're done, create a PR. If it fixes a GitHub issue, link it.
 - If it's approved your changes will be merged into the main branch.
 
 If it's approved, your name, email address and merge commit link will be written into the CONTRIBUTORS file :)
